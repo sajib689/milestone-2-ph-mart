@@ -64,4 +64,50 @@ header nav .menu a {
     font-size: 2rem;
     line-height: 3.6rem;
     text-transform: capitalize;
+    transition: all 0.2s;
+}
+header nav .menu a:hover {
+    color: #4b709e;
+}
+/* -----Nav css End---------- */
+/* ------Hero Section-------- */
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20rem;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5rem;
+}
+/* hero left */
+.hero-content {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.hero-content h1{
+    width: 40rem;
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-bottom: 4rem;
+    text-transform: capitalize;
+}
+.hero-content p {
+    width: 45rem;
+    margin-bottom: 3rem;
+}
+/* right side */
+
+.hero-img  {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-img img {
+    width: 100%;
 }
